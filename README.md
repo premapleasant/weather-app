@@ -12,7 +12,7 @@ A simple weather app that fetches real-time weather data using an API.
 2️⃣ Click the search button to fetch weather details.  
 
 ## 🌍 Live Demo
-🔗 [Live Link](#)  
+🔗 [Live Link](https://premapleasant.github.io/weather-app/)  
 
 ## 🛠 Technologies Used
 - HTML  

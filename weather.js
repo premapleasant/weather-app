@@ -17,24 +17,24 @@ fetch(url)
         document.querySelector('.result').innerHTML= `Temperature: ${temperature}°C <br> Condition: ${weathercondition}`;
         document.querySelector('.result').style.display='block';
         if(weathercondition.includes('rain')){
-            document.body.style.backgroundImage = "url('Rainy.jpg')";
+            document.body.style.backgroundImage = "url('./images/Rainy.jpg')";
         }
         else if(weathercondition.includes('cloud')){
-            document.body.style.backgroundImage = "url('Cloudy.jpg')";
+            document.body.style.backgroundImage = "url('./images/Cloudy.jpg')";
        }
        else if(weathercondition.includes('clearsky')){
-          document.body.style.backgroundImage = "url('clearSky.jpg')";
+          document.body.style.backgroundImage = "url('./images/clearSky.jpg')";
        }
        else if(weathercondition.includes('snow')){
-           document.body.style.backgroundImage = "url('Snowy.jpg')";
+           document.body.style.backgroundImage = "url('./images/Snowy.jpg')";
        }
        else if(weathercondition.includes('thunder strom')){
-           document.body.style.backgroundImage = "url('Thunderstrom')";
+           document.body.style.backgroundImage = "url('./images/Thunderstrom')";
        }else if(weathercondition.includes('sun')){
-           document.body.style.backgroundImage = "url('sunny.jpg')";
+           document.body.style.backgroundImage = "url('./images/sunny.jpg')";
        } 
        else{
-        document.body.style.backgroundImage = "url('Thunderstrom.jpg')";
+        document.body.style.backgroundImage = "url('./images/Thunderstrom.jpg')";
        }
        
     }) 
@@ -47,6 +47,6 @@ fetch(url)
 document.querySelector('.reset').addEventListener('click', () =>{
     document.querySelector('.city').value = '';
     document.querySelector('.result').style.display="none";
-    document.body.style.backgroundImage = "url('Thunderstrom.jpg')";
+    document.body.style.backgroundImage = "url('./images/Thunderstrom.jpg')";
 }
 )

@@ -29,7 +29,7 @@
 
 /* Body styling */
 body {
-    background: url("Thunderstrom.jpg") no-repeat center / cover fixed;
+    background: url("./images/Thunderstrom.jpg") no-repeat center / cover fixed;
     background-attachment: fixed;
     margin: 0;
     padding: 0;
